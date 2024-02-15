@@ -1,0 +1,43 @@
+Vous devez créer une API RESTful simple en utilisant Laravel pour gérer l'inventaire d'un magasin. L'API devrait permettre aux utilisateurs d'effectuer les actions suivantes :
+
+1. **Créer un produit** : Les utilisateurs devraient pouvoir créer un nouveau produit en fournissant les détails suivants : nom, description, prix et quantité.
+
+2. **Obtenir un produit** : Les utilisateurs devraient pouvoir récupérer un produit spécifique par son ID.
+
+3. **Obtenir tous les produits** : Les utilisateurs devraient pouvoir récupérer une liste de tous les produits.
+
+4. **Mettre à jour un produit** : Les utilisateurs devraient pouvoir mettre à jour les détails d'un produit existant, tels que le nom, la description, le prix et la quantité.
+
+5. **Supprimer un produit** : Les utilisateurs devraient pouvoir supprimer un produit spécifique par son ID.
+
+## **Exigences :**
+
+1. Suivre les conventions RESTful pour la conception de l'API.
+
+2. Implémenter une validation appropriée pour les données de requête.
+
+3. Utiliser les codes d'état HTTP appropriés pour les réponses.
+
+4. Implémenter la gestion des erreurs pour les requêtes invalides.
+
+5. Utiliser une base de données de votre choix pour stocker les données des produits.
+
+6. Écrire des tests pour couvrir la fonctionnalité de l'API.
+
+## **Critères d'évaluation :**
+
+1. Structure du code : Le code devrait être bien organisé, modulaire et facile à comprendre.
+
+2. Conception de l'API : L'API devrait suivre les principes RESTful et fournir des points de terminaison appropriés pour différentes opérations.
+
+3. Validation et gestion des erreurs : L'API devrait gérer la validation des données d'entrée et renvoyer des réponses d'erreur significatives.
+
+4. Intégration de la base de données : L'API devrait stocker les données des produits dans une base de données et effectuer correctement les opérations CRUD.
+
+5. Test : L'API devrait avoir des tests unitaires qui couvrent la fonctionnalité principale.
+
+## **Soumission :**
+
+Veuillez créer un dépôt GitHub pour héberger votre code et fournir un fichier README.md qui inclut des instructions sur la manière d'exécuter l'API et d'exécuter les tests. Soumettez le lien du dépôt avec votre solution.
+
+**Note :** Veuillez limiter l'utilisation de dépendances tierces autant que possible.
