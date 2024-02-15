@@ -7,7 +7,7 @@ Cette API permet la gestion complète des produits, y compris la création, la l
 
 ### Liste des Produits
 
-- **URL**: `/products`
+- **URL**: `/product`
 - **Méthode HTTP**: GET
 - **Description**: Récupère la liste complète des produits.
 
@@ -21,7 +21,7 @@ Cette API permet la gestion complète des produits, y compris la création, la l
 
 ### Détails d'un Produit
 
-- **URL**: `/products/{id}`
+- **URL**: `/product/{id}`
 - **Méthode HTTP**: GET
 - **Description**: Récupère les détails d'un produit spécifique en fonction de son ID.
 
@@ -35,7 +35,7 @@ Cette API permet la gestion complète des produits, y compris la création, la l
 
 ### Création d'un Produit
 
-- **URL**: `/products`
+- **URL**: `/product`
 - **Méthode HTTP**: POST
 - **Description**: Crée un nouveau produit avec les détails fournis.
 
@@ -49,7 +49,7 @@ Cette API permet la gestion complète des produits, y compris la création, la l
 
 ### Mise à Jour d'un Produit
 
-- **URL**: `/products/{id}`
+- **URL**: `/product/{id}`
 - **Méthode HTTP**: PUT
 - **Description**: Met à jour les détails d'un produit existant en fonction de son ID.
 
@@ -63,7 +63,7 @@ Cette API permet la gestion complète des produits, y compris la création, la l
 
 ### Suppression d'un Produit
 
-- **URL**: `/products/{id}`
+- **URL**: `/product/{id}`
 - **Méthode HTTP**: DELETE
 - **Description**: Supprime un produit existant en fonction de son ID.
 
